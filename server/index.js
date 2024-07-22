@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () => {
 
 const io = socket(server, {
     cors: {
-        origin: "https://snappy-frontend-6956.onrender.com",
+        origin: "http://localhost:3000",
         credentials: true
     },
 });
