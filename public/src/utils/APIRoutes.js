@@ -1,4 +1,4 @@
-export const host = "https://snappy-backend-qtx3.onrender.com";
+export const host = `${window.location.origin}`;
 
 export const registerRoute = `${host}/api/auth/register`;
 export const loginRoute = `${host}/api/auth/login`;
